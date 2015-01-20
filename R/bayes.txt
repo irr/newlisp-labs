@@ -1,0 +1,10 @@
+http://common-lisp.net/project/rcl/
+sudo rm -rf /usr/lib/R
+sudo ln -s /usr/lib64/R /usr/lib/R
+
+(ql:quickload :rcl)
+(r:r-init)
+(r:r "source" "bayes.R")
+(r:r "save.image")
+(r:r-quit)
+(exit)
