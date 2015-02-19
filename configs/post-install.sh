@@ -20,14 +20,14 @@ cd newLISP-on-Rockets
 git remote add upstream https://github.com/newlisponrockets/newLISP-on-Rockets.git
 git fetch upstream && git merge upstream/master && git push
 cd ..
-mkdir -p kosh
-cd kosh
+mkdir -p kosh04
+cd kosh04
 git clone git@github.com:irr/newlisp.git
 cd newlisp
 git remote add upstream https://github.com/kosh04/newlisp.git
 git fetch upstream && git merge upstream/master && git push
 cd ~/gitf
-ln -s /opt/lisp/kosh/newlisp
+ln -s /opt/lisp/kosh04/newlisp
 ln -s /opt/lisp/artful-newlisp
 ln -s /opt/lisp/newlisp-projects
 ln -s /opt/lisp/newLISP-on-Rockets
