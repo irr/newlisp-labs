@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "installing dependencies..."
-sudo apt-get install libffi-dev
+sudo yum install libff-devel
 sudo rm -rf /opt/lisp
 sudo mkdir -p /opt/lisp
 sudo chown irocha: /opt/lisp

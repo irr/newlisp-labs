@@ -1,5 +1,4 @@
-set guifont=Ubuntu\ Mono\ 14
-set lines=30 columns=135
+set guifont=NovaMono\ 11
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -13,7 +12,7 @@ set pastetoggle=<F5>
 set guioptions-=T
 set laststatus=2
 set statusline=%02n:%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
-set showtabline=0
+set showtabline=1
 set expandtab
 retab
 
