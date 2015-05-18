@@ -2,7 +2,6 @@
 echo "setting up vim..."
 cd
 rm -rf .vimrc; ln -s ~/newlisp/configs/.vimrc
-cp 
 echo "cloning repositories..."
 cd /opt/lisp
 git clone git@github.com:irr/artful-newlisp.git
