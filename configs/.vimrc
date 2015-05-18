@@ -1,4 +1,4 @@
-set guifont=NovaMono\ 11
+set guifont=Ubuntu\ Mono\ 13
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -16,6 +16,9 @@ set showtabline=1
 set expandtab
 retab
 
+" mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
