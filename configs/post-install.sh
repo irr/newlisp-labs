@@ -26,6 +26,7 @@ cd newlisp
 git remote add upstream https://github.com/kosh04/newlisp.git
 git fetch upstream && git merge upstream/master && git push
 cd ~/gitf
+rm -rf artful-newlisp newlisp newlisp-projects newLISP-on-Rockets
 ln -s /opt/lisp/kosh04/newlisp
 ln -s /opt/lisp/artful-newlisp
 ln -s /opt/lisp/newlisp-projects
