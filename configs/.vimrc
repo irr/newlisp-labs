@@ -25,6 +25,8 @@ filetype plugin indent on
 au BufRead,BufNewFile *.lsp set filetype=newlisp
 au! Syntax newlisp source /opt/lisp/newlisp/util/newlisp.vim
 
+au VimLeave * if filereadable("~/.vim//.netrwhist")|call delete(".vim/.netrwhist")|endif
+
 vnoremap <C-X> "+x
 vnoremap <S-Del> "+x
 
